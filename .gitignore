@@ -5,6 +5,9 @@ node_modules
 npm-debug.log
 .env
 
+views/admin/ueditor/upload/file
+views/admin/ueditor/upload/img
+
 # app
 *.nginx.conf
 
