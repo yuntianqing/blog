@@ -1,0 +1,37 @@
+.DS_Store
+
+# node
+node_modules
+npm-debug.log
+.env
+
+# app
+*.nginx.conf
+
+# build
+__build
+__build.lock
+
+# IDE
+.idea
+
+*.sublime-project
+*.sublime-workspace
+
+sftp-config.json
+sftp-settings.json
+
+# qiniu
+qrsync
+qrsync.json
+
+# frontend build
+*.map
+.app-config
+dist/
+.qshell/
+module-example/
+qupload.json
+yarn.lock
+yarn-error.log
+.tern-project
