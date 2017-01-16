@@ -65,7 +65,7 @@ app.use(router.api.routes());
 app.use(serve(path.join(__dirname, '..')));
 app.use(serve(viewsPath));
 
-const ueditor = require('koa-ueditor')('/views/admin');//配置ueditor
+const ueditor = require('./services/ueditor-service')('/views/admin');//配置ueditor
 router.all('/ueditor/ue', ueditor);
 
 // debug
